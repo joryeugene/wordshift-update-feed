@@ -9,3 +9,12 @@ The updater source, one-command walkthrough, and architecture live in
 [cross-platform-self-updater](https://github.com/joryeugene/cross-platform-self-updater). Demo
 artifacts are available in the [v1.0.0](https://github.com/joryeugene/wordshift-update-feed/releases/tag/v1.0.0)
 and [v1.1.0](https://github.com/joryeugene/wordshift-update-feed/releases/tag/v1.1.0) releases.
+
+## Development
+
+Optionally enable the repository's staged secret scan:
+
+```text
+mise install
+git config core.hooksPath .githooks
+```
